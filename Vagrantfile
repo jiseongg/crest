@@ -26,4 +26,6 @@ Vagrant.configure("2") do |config|
     c.path = "install_cil.sh"
   end
 
+	ENV['LC_ALL'] = "en_US.UTF-8"
+
 end
